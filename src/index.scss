@@ -1,0 +1,55 @@
+html {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* start generic page styling */
+
+.table {
+    display: table;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.promotion {
+    color: #7bba3c;
+}
+
+/* end generic page styling */
+
+/* start item specific styling */
+
+.itemTotalPrice {
+    color: #fa5400;
+}
+
+.itemsListBox {
+    padding: 0;
+    list-style-type: none;
+}
+
+.itemCard {
+    border-bottom: 1px solid #ccc;
+    font-size: 11px;
+    min-width: 150px;
+    max-width: 452px;
+    padding: 10px 0;
+
+}
+
+.itemActions {
+    padding-top: 5px;
+}
+
+/* end item specific styling */

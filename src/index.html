@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+</head>
+<body>
+    <div class="basketContainer clearfix">
+        <h4 class="title">
+            YOUR SHOPPING CARD
+        </h4>
+        <div class="basketViewContainer">
+            <ul id="itemsList" class="itemsListBox">
+            </ul>
+            <div class="title">
+                TOTAL: <span id="totalPrice"></span>
+            </div>
+        </div>
+    </div>
+
+    <template id="noItemsTemplate">
+        <li class="card clearfix">
+            Your Shopping Card is empty
+        </li>
+    </template>
+    <template id="itemTemplate">
+        <li class="tmplItemId itemCard clearfix" data-id="">
+            <div class="itemBox">
+                <div class="itemDetails table">
+                    <div class="tmplItemTitle title cell">
+                    </div>
+                    <div class="tmplItemTotalPrice itemTotalPrice cell text-right">
+                    </div>
+                </div>
+                <div class="itemOptions">
+                    <div class="itemOption">
+                        <span class="title">QTY:</span> <span class="tmplItemQuantity"></span> for <span class="tmplItemPrice"></span>
+                        <span class="tmplItemPromotionQuantity promotion"></span>
+                    </div>
+                    <div class="tpmlItemPromotionTitle itemOption promotion">
+                    </div>
+                </div>
+            </div>
+            <div class="itemActions">
+                <button class="tmplItemId" data-action="delete" data-id="">delete</button>
+                <select class="tmplItemId tmplItemQuantityValue" name="quantity" data-action="quantity" data-id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </li>
+    </template>
+</body>
+</html>

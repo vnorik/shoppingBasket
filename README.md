@@ -17,12 +17,13 @@ Give user the ability change the quantity of products or delete any of them.
 * stubs - mocked data to simulate data fetching from the server
 * spec - unit tests of the available functionality
 
-To simulate the server calls Promise with a setTimeout function is in use.
 
 ### Application Details
 
 Application is done with Vanilla JS based on ES6 standart.
 Build with webpack + babel.
+Unit test are setup with karma + jasmine.
+To simulate the server calls and get the mocked data Promise with a setTimeout function is in use.
 
 ## Running locally
 

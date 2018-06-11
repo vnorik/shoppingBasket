@@ -41,10 +41,10 @@ npm run watch
 To run the list of test please use the following command
 
 ```
-npm run tests
+npm run test
 ```
 
-## Database Schema could be found by the URL:
+## Database Schema could be found by the URL
 
 [Data Schema](https://goo.gl/oqn3yT)
 
@@ -54,7 +54,7 @@ Web Application is deployed as a static content under the AWS S3 bucket.
 AWS CodeBuild service available to build the latest changes for the bucket.
 Deployed version can be found by the URL:
 
-[Shopping Basket](https://s3-eu-west-1.amazonaws.com/foursquare-venues/index.html)
+[Shopping Basket](https://s3-eu-west-1.amazonaws.com/shopping-basket/index.html)
 
 ## Future improvements
 * extend with more tests
@@ -70,5 +70,5 @@ Deployed version can be found by the URL:
 * show more detailed messages about the applied promotion and prices
 * support different prices and promotions per country/currency
 * add more product details (like description, image, etc.)
-* plug and configure lintr tool to maintain and control the code quality
 * add users support, has a user assigned to the basket if exists, by default would be a guest
+* plug and configure linter tool to maintain and control the code quality

@@ -12,10 +12,12 @@ Give user the ability change the quantity of products or delete any of them.
 
 ### Application structure
 * libs - utility, helpers
-* services - remote calls services, with are doing the API requests
-* main.js - main JS file that initiate all functionality
-* stubs - mocked data to fetch the Random BAsket products selection
+* services - remote service calls to get the data from the server
+* main.js - main JS file that initiate all functionality (render basket and register listeners)
+* stubs - mocked data to simulate data fetching from the server
 * spec - unit tests of the available functionality
+
+To simulate the server calls Promise with a setTimeout function is in use.
 
 ### Application Details
 
